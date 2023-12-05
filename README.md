@@ -17,3 +17,33 @@ Developing this tool involved overcoming challenges in natural language processi
 
 🎯 Why This Matters?
 In the era of rampant cyber threats, this tool isn't just a technical endeavor; it's a step towards safer digital communication. It aims to reduce the risk of phishing attacks, which are becoming increasingly sophisticated.
+
+# How to use
+Clone the Repository:
+First, they need to clone your repository to their local machine. This can be done using Git with the command:
+git clone https://github.com/SamuelSara/PhishFinder.git
+
+Install Required Libraries:
+Navigate to the cloned directory and install the required Python libraries. If you have a requirements.txt file, this can be done using:
+pip install -r requirements.txt
+
+If there's no requirements.txt, users will need to manually install libraries like pandas, nltk, scikit-learn, and any others your script uses.
+
+Download NLTK Resources:
+The script uses NLTK for text processing, so users need to download the necessary NLTK resources (like punkt and stopwords). This can be done in Python:
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+
+Prepare Data:
+Users should have their email data in the format your script expects. If your script uses a CSV file for training (like 'Phishing_Email.csv'), they need a similar structured file.
+
+Run the Script:
+Execute the script. If it's designed to be run from a command line, it might look something like this:
+python script_name.py 
+
+Using the Classifier:
+To classify new emails, users should follow the function or method you've provided. For example, if they have an .eml file they want to classify, they would use your predict_eml function.
+
+Review Output:
+After running the script, users should check the output, which will classify the email as either phishing or legitimate.
