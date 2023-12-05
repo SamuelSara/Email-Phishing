@@ -24,6 +24,7 @@ First, they need to clone your repository to their local machine. This can be do
 git clone https://github.com/SamuelSara/PhishFinder.git
 
 Install Required Libraries:
+
 pandas
 
 nltk
