@@ -1,2 +1,2 @@
 # Email-Phishing
-An email phishing web app i made utilizing a data set I found on kaggle, HTML/CSS Python and JavaScript
+An email phishing Python app I made utilizing a data set I found on Kaggle and many different Python libraries.
