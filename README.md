@@ -25,8 +25,11 @@ git clone https://github.com/SamuelSara/PhishFinder.git
 
 Install Required Libraries:
 pandas
+
 nltk
+
 scikit-learn
+
 joblib
 
 Download NLTK Resources:
