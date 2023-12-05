@@ -24,10 +24,10 @@ First, they need to clone your repository to their local machine. This can be do
 git clone https://github.com/SamuelSara/PhishFinder.git
 
 Install Required Libraries:
-Navigate to the cloned directory and install the required Python libraries. If you have a requirements.txt file, this can be done using:
-pip install -r requirements.txt
-
-If there's no requirements.txt, users will need to manually install libraries like pandas, nltk, scikit-learn, and any others your script uses.
+pandas
+nltk
+scikit-learn
+joblib
 
 Download NLTK Resources:
 The script uses NLTK for text processing, so users need to download the necessary NLTK resources (like punkt and stopwords). This can be done in Python:
